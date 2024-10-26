@@ -1,0 +1,39 @@
+/* ---------- Variables --------- */
+
+:root {
+    --bgcolor: whitesmoke;
+    --primary-color: rgb(26, 24, 24);
+    --main-font-color: white;
+}
+
+
+/* --------- General ---------- */
+
+* {
+    margin: 0; 
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+}
+
+ul {
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   padding: 0;
+}
+
+#logo, header li {
+    margin: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-font-color)
+}
