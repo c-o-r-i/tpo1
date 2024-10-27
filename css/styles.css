@@ -4,6 +4,7 @@
     --bgcolor: whitesmoke;
     --primary-color: rgb(26, 24, 24);
     --main-font-color: white;
+    --font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 
@@ -20,20 +21,79 @@ body {
 header {
     background-color: var(--primary-color);
     display: flex;
+    
 }
 
 ul {
    list-style-type: none;
-   display: flex;
+   display: inline-flex;
    align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
    padding: 0;
 }
 
-#logo, header li {
-    margin: 2%;
-}
-
-a {
+.nav-item a {
     text-decoration: none;
     color: var(--main-font-color)
 }
+
+
+
+/* Main content area */
+.container {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-container {
+    font-size: 30px;
+    line-height: 34px;
+}
+.info-box-title {
+    color: #c7a17a;
+}
+
+.column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.single_image {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+/* Footer area */
+footer {
+    background-color:rgb(26, 24, 24);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.single_logo {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+
+/* --------- Diseño responsivo ---------- */
+
+/* Tablet horizontal */
+@media (max-width: 1080px) { }
+
+/* Tablet vertical */
+@media (max-width: 768px) { }
+
+/* Mobile 1 */
+@media (max-width: 480px) { }
+
+/* Mobile 2 */
+@media (max-width: 375px) { }
