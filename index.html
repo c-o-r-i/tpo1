@@ -14,18 +14,21 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-sm justify-content-center">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img\TIENDA DE INFUSIONES.png" alt="Logo de Marca" id="logo" style="width: 80px;">
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="tienda.html">NUESTRAS INFUSIONES</a></li>
-                    <li class="nav-item"><a href="tutoriales.html"><span class="nav-link-text">TUTORIALES</span></a></li>
-                    <li class="nav-item"><a href="menu-tienda.html"><span class="nav-link-text"></span>NUESTRO MENÚ</span></a></li>
-                    <li class="nav-item"><a href="trabaja-en-t.html"><span class="nav-link-text"></span>TRABAJÁ CON NOSOTROS</span></a></li>
-                    <li class="nav-item"><a href="franquicias.html"><span class="nav-link-text"></span>FRANQUICIAS</span></a></li>
-                    <li class="nav-item"><a href="contacto.html"><span class="nav-link-text">CONTACTO</span></a></li>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="img\logo.png" alt="Logo de Marca" width="120" alt="Logo de marca">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="tienda.html">NUESTRAS INFUSIONES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutoriales.html"><span class="nav-link-text">TUTORIALES</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu-tienda.html"><span class="nav-link-text"></span>NUESTRO MENÚ</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="trabaja-en-t.html"><span class="nav-link-text"></span>TRABAJÁ CON NOSOTROS</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="franquicias.html"><span class="nav-link-text"></span>FRANQUICIAS</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html"><span class="nav-link-text">CONTACTO</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -37,80 +40,97 @@
     
 
     <!-- MAIN CONTENT AREA-->
-    <div class="container">  <!-- Flex container-->
-        <div class="site-content col-lg-12 col-12 col-md-12" role="main">
 
-            <h4 class="title-container">¿CUÁL VAS A ELEGIR HOY?</h4>
-            <span class="right-line"></span>
+    <section>
+        <div class="container-fluid">  
+            <div class="site-content  col-sm-6">
 
-            <div class="column_container col-sm-12 col-md-3">  <!-- Flex item 1 -->
-                <h4 class="info-box-title">CLASSIC</h4>
-                <p>Nuestro tradicional house blend. Hebras provenientes de Singapur. Una combinación clásica. </p>
-                <h4 class="info-box-title">COTTAGE</h4>
-                <p>Un blend exquisito, con aires británicos. </p>
-            </div>
+                <h4 class="title-container">¿CUÁL VAS A ELEGIR HOY?</h4>
+                <span class="right-line"></span>
 
-            <div class="column_container col-sm-12 col-md-6">  <!-- Flex item 2 -->
-                <div class="single-image">
-                <img loading="lazy" decoding="async" width="800" height="660" src="img\jarrito.jpg" class="single_image" alt="Imagen sirviendo jarrito"  
-                 alt srcset="img\jarrito.jpg" 800w, img\jarrito.jpg 300w, img\jarrito.jpg 768w sizes="(max-width: 800px) 100vw, 800px">
+                <div class="column_container col-sm-12 col-md-3">  
+                    <h4 class="info-box-title">CLASSIC</h4>
+                    <p>Nuestro tradicional house blend. Hebras provenientes de Singapur. Una combinación clásica. </p>
+                    <h4 class="info-box-title">COTTAGE</h4>
+                    <p>Un blend exquisito, con aires británicos. </p>
                 </div>
-            </div>    
 
-            <div class="column_container col-sm-12 col-md-3">  <!-- Flex item 3 -->
-            <h4 class="info-box-title">ORIENTAL</h4>
-            <p>Una propuesta fresca y a la vez milenaria, fruto de la mixtura entre hebras provenientes de Malasia y Hong Kong.</p>
-            <h4 class="info-box-title">COSMOS</h4>
-            <p>Un blend único y original que combina una base achocolatada y frutal con toques cítricos y especiados. Para los amantes de los exótico. </p>
+                <div class="column_container col-sm-12 col-md-6"> 
+                    <div class="single-image">
+                    <img loading="lazy" decoding="async" width="800" height="660" src="img\jarrito.jpg" class="single_image" alt="Imagen sirviendo jarrito"  
+                    alt srcset="img\jarrito.jpg" 800w, img\jarrito.jpg 300w, img\jarrito.jpg 768w sizes="(max-width: 800px) 100vw, 800px">
+                    </div>
+                </div>    
+
+                <div class="column_container col-sm-12 col-md-3">  
+                <h4 class="info-box-title">ORIENTAL</h4>
+                <p>Una propuesta fresca y a la vez milenaria, fruto de la mixtura entre hebras provenientes de Malasia y Hong Kong.</p>
+                <h4 class="info-box-title">COSMOS</h4>
+                <p>Un blend único y original que combina una base achocolatada y frutal con toques cítricos y especiados. Para los amantes de los exótico. </p>
+                </div>
+
             </div>
 
         </div>
-
-    </div>
-
+    </section>
 
     <!-- FOOTER -->
-    <footer class="footer-container color-scheme light">
-        <div class="container main-footer"> <aside class="footer-sidebar widget-area row" role="complementary">
-            <div class="footer-column footer-column-1 col-12">
-                <p></p>
-                <div>
-                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12"></div>
-                    <div class="columnn-inner"></div>
-                    <img class="single_logo" src="img\TIENDA DE INFUSIONES.png" width="126" height="64" alt="tienda-de-cafe"
-                        title="tienda-de-cafe" />
-                    <div class="col-sm-2 col-lg-2 col-md-2 col-xs-6"></div>
-                    <div class="col-sm-2 col-lg-2 col-md-2 col-xs-6"></div>
-                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12"></div>
-                </div>
-            </div>
-    
-            <div>
-               
-            </div>
-        </div>
-
-        <div class="copyrights-wrapper copyrights-two-columns">
-            <div class="container">
-                <div class="min-footer">
-                    <div class="col-left reset-mb-10">
-                        <small>
-                            © Copyright 2024 Tienda de infusiones - Todos los derechos reservados.<br> 
-                            Todos los logos, productos, marcas y nombres aqui utilizados son propiedad registrada.<br>
-                        </small>
+    <footer class="footer-container">
+        <div class="container main-footer"></div>
+        <!--  <aside class="footer-sidebar widget-area row"> -->
+            <div class="row">
+                    <div class="col-sm-4">
+                        <img class="single_logo" src="img\logo.png" width="150" alt="Logo Tienda de Infusiones"/>
                     </div>
-
-                </div>
-
+                    <div class="col-sm-2">
+                        <ul class="menu">
+                            <li class>
+                                <span class="nav-link-text">CONTENIDOS</span>
+                                <ul class="sub-menu">
+                                    <li class>
+                                        <a href="index.html"><span class="nav-link-text">Inicio</span></a>
+                                    </li>
+                                    <li class>
+                                        <a href="tienda.html"><span class="nav-link-text">Nuestras Infusiones</span></a>
+                                    </li>
+                                    <li class>
+                                        <a href="menu-tienda.html"><span class="nav-link-text">Nuestro menú</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul class="menu">
+                            <li class>
+                                <span class="nav-link-text">CONTENIDOS</span>
+                                <ul class="sub-menu">
+                                    <li class>
+                                        <a href="tutoriales.html"><span class="nav-link-text">Tutoriales</span></a>
+                                    </li>
+                                    <li class>
+                                        <a href="trabaja-en-t.html"><span class="nav-link-text">Trabajá en TDI</span></a>
+                                    </li>
+                                    <li class>
+                                        <a href="franquicias.html"><span class="nav-link-text">Franquicias</span></a>
+                                    </li>
+                                    <li class>
+                                        <a href="contacto.html"><span class="nav-link-text">Contacto</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">SUSCRIBITE A NUESTRO NEWLETTER</div>            
             </div>
-
-
         </div>
 
-
-
-        </aside>
+        <div class="footer-copyright">
+            <div class="container">
+                     <small> © Copyright 2024 Tienda de infusiones - Todos los derechos reservados.<br>Todos los logos, productos, marcas y nombres aqui utilizados son propiedad registrada.<br></small>
+            </div>
         </div>
+      
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
