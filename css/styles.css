@@ -11,6 +11,7 @@
 
 * {
     margin: 0; 
+    font-family: poppins;
 }
 
 body {
@@ -36,4 +37,59 @@ ul {
 a {
     text-decoration: none;
     color: var(--main-font-color)
+}
+
+
+/* ---------- CONTACTO ---------- */
+
+.main-contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.seccion-contacto:first-child{
+    border-right: 1px solid rgba(187, 187, 187, 0.622);
+}
+
+.seccion-contacto {
+    width: 48%;
+}
+
+.seccion-contacto > h2 {
+    padding-bottom: 3%;
+}
+
+#formulario-contacto {
+    margin: 5% 0;
+}
+
+#formulario-contacto > label {
+    display: block;
+}
+
+#formulario-contacto > input, textarea {
+    width: 95%;
+    margin-bottom: 3%;
+    height: 2em;
+    border: 2px solid rgba(187, 187, 187, 0.622);
+}
+
+#formulario-contacto > textarea {
+    height: 10em;
+}
+
+#formulario-contacto > button {
+    padding: 2%;
+    border: none;
+    color: white;
+    background-color: rgb(226, 169, 104);
+    font-weight: bold;
+
+}
+
+#redes-contacto > i {
+    display: block;
+    margin: 5% 0;
+    font-size: 2.5em;
 }
