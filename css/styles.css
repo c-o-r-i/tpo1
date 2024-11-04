@@ -40,13 +40,16 @@ a {
     color: var(--main-font-color)
 }
 
+main {
+    margin: 3%;
+}
+
 
 /* ---------- CONTACTO ---------- */
 
 .main-contacto{
     display: flex;
     justify-content: space-between;
-    margin: 3%;
 }
 
 .seccion-contacto:first-child{
@@ -159,4 +162,45 @@ form > button {
 
 #cv-trabaja {
     padding-top: 0.65em;
+}
+
+
+/* ---------- TIENDA ---------- */
+
+#main-tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#main-tienda img {
+    width: 25vw;
+    
+    transition: transform 0.5s;
+
+    position: relative;
+    z-index: 0;
+}
+
+#main-tienda img:hover {
+    transform: scale(1.2);
+}
+
+#main-tienda figure {
+    margin-bottom: 2em;
+
+    overflow: hidden;
+    z-index: 2;
+}
+
+#main-tienda figcaption {
+    background-color: var(--bgcolor);
+    padding: 0.5em 0;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+
+    position: relative;
+    z-index: 2;
 }
