@@ -310,11 +310,23 @@ form > button {
     }
 
 
+    /* --- Tienda --- */ 
+
+    #main-tienda img {
+        width: 30vw;
+    }
+
 }
 
 
 /* Mobile 1 */
 @media (max-width: 480px) {
+    
+    /* --- Tienda --- */ 
+
+    #main-tienda img {
+        width: 60vw;
+    }
 
 }
 
