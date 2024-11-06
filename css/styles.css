@@ -159,45 +159,45 @@ form > button {
     font-size: 2.5em;
 }
 
-/* ---------- Trabaja en TDI ---------- */
+/* ---------- Trabaja en TDI y Franquicias ---------- */
 
-#main-trabaja {
+#main-trabaja, #main-franquicias {
     margin: 3% 10%;
     display: flex;
     flex-direction: column;
 }
 
-#main-trabaja h3{
+main h3{
     color: var(--accent-color);
     font-weight: normal;
 }
 
-#main-trabaja h2 {
+main h2 {
     margin: 2%;
     font-size: 2em;
 }
 
-#main-trabaja hr {
+main hr {
     border: 1px solid var(--accent-color);
     width: 120px;
     align-self: center;
 }
 
-#main-trabaja p {
+main p {
     margin: 2%;
     font-size: 0.9em;
 }
 
-#main-trabaja > :not(:last-child) {
+#main-trabaja > :not(:last-child), #main-franquicias > :not(:last-child) {
     text-align: center;
 }
 
-#formulario-trabaja {
+.formulario > div {
     display: flex;
     flex-wrap: wrap;
 }
 
-#formulario-trabaja > label {
+.formulario > div > label {
     width: 49%;
     display: flex;
     flex-direction: column;
@@ -205,11 +205,11 @@ form > button {
     text-align: left;
 }
 
-#formulario-trabaja label:nth-child(odd) {
+.formulario > div > label:nth-child(odd) {
     margin-right: 2%;
 }
 
-#formulario-trabaja input {
+.formulario > div input {
     width: 100%;
     height: 3em;
 }
@@ -275,14 +275,14 @@ form > button {
 /* Table Horizontal */
 @media (max-width: 1080px) {
     
-    /* --- Trabaja en TDI --- */
+    /* --- Trabaja en TDI y Franquicias --- */
 
-    #formulario-trabaja {
+    .formulario > div {
         flex-direction: column;
         width: 100%;
     }
 
-    #formulario-trabaja > label {
+    .formulario > div > label {
         width: 100%;
     }
 }
@@ -328,9 +328,22 @@ form > button {
         width: 60vw;
     }
 
+
+    /* --- Trabaja en TDI y Franquicias --- */
+
+    main > p {
+        margin: 5% 2%;
+    }
+
 }
 
 /* Mobile 2 */
 @media (max-width: 375px) {
+
+/* --- Trabaja en TDI y Franquicias --- */
+
+    #main-trabaja, #main-franquicias {
+        font-size: 0.8em;
+    }
 
 }
