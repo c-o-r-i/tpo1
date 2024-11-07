@@ -6,25 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Tienda de Infusiones</title>
     <link rel="shortcut icon" href="assets/LOGO-TDI.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/814a59788f.js" crossorigin="anonymous"></script>
     <script src="/js/scripts.js"></script>
 </head>
 
 <body>
+
+    <!-- HEADER -->
+
     <header>
-        <img src="" alt="Logo" id="logo">
-        <nav>
-            <ul>
-                <li><a href="tienda.html">NUESTRO CAFÉ</a></li>
-                <li><a href="tutoriales.html">TUTORIALES</a></li>
-                <li><a href="menu-tienda.html">NUESTRO MENÚ</a></li>
-                <li><a href="trabaja-en-t.html">TRABAJÁ CON NOSOTROS</a></li>
-                <li><a href="franquicias.html">FRANQUICIAS</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
+
+        <nav class="nav-box">
+            <div class="nav-tit">
+                <div class="logo"><a href="index.html"><img src="assets/LOGO-TDI.png" alt="Logo de Marca" width="120" alt="Logo de marca"></a></div>
+                <div class="toggle" onclick="alternar('menu')">Abrir</div>
+            </div>
+            <ul class="nav-bar cerrado" id="menu"> 
+              <li><a href="tienda.html">NUESTRAS INFUSIONES</a></li>
+              <li><a href="tutoriales.html">TUTORIALES</a></li>
+              <li><a href="menu-tienda.html">NUESTRO MENÚ</a></li>
+              <li><a href="trabaja-en-t.html">TRABAJÁ CON NOSOTROS</a></li> 
+              <li><a href="franquicias.html">FRANQUICIAS</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-        </nav>
+          </nav>
     </header>
     
+
+    <!-- MAIN-->
+
+    <section>
+        <div class="title">
+            <h4>NUESTRAS INFUSIONES</h4>
+            <h1>¿CUÁL VAS A ELEGIR HOY?</h1>
+        </div>
+
+        <div class="row">  
+            <div class="column1">
+                <div class= "item">
+                    <h3>CLASSIC</h3>
+                    <p>Nuestro versión más tradicional. Hebras provenientes de Singapur, Turquía y Corea del Norte. Una combinación clásica, con fuerte raíces orientales. </p>
+                </div>
+                <div class= "item">
+                    <h3>COTTAGE</h3>
+                    <p>Un blend exquisito, con el característico sabor del tea time británico. Una delicada combinación de hebras finamente seleccionadas. </p>
+                </div>
+            </div>
+
+            <div class="column2"> 
+                <img  src="assets/infusiones-digestivas-d.jpg" alt="" width=100%>  
+            </div>    
+      
+            <div class="column3">  
+                <div class= "item">
+                    <h3>ORIENTAL</h3>
+                    <p>Una propuesta fresca y a la vez milenaria, fruto de la mixtura entre hebras provenientes de Malasia y Hong Kong.</p>
+                </div>
+                <div class= "item">
+                    <h3>COSMOS</h3>
+                    <p>Un blend único y original que combina una base achocolatada y frutal con toques cítricos y especiados. Para los amantes de lo
+                         exótico. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-main">
+            <div class="row">
+                <div class="col">
+                    <img class="single_logo" src="assets/LOGO-TDI.png" width="150" alt="Logo Tienda de Infusiones">
+                </div>
+
+                <div class="col">
+                    <ul class="menu1">
+                        <li><h3>CONTENIDOS</h3></li>>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Nuestras Infusiones</a></li>
+                        <li><a href="menu-tienda.html">Nuestro menú</a></li>
+                    </ul>
+                     
+                </div>
+
+                <div class="col">
+                    <ul class="menu2">
+                        <li><h3>NECESITAS AYUDA</h3></li>
+                        <li class><a href="tutoriales.html">Tutoriales</a></li>
+                       <li class><a href="trabaja-en-t.html">Trabajá en TDI</a> </li>
+                        <li class><a href="franquicias.html">Franquicias</a></li>
+                        <li class><a href="contacto.html">Contacto</a> </li>
+                    </ul>
+                        
+                </div>
+                <div class="col">
+                    <ul class="menu3">
+                       <h3>SUSCRIBITE A NUESTRO NEWSLETTER</h3>
+                    </ul>
+               </div>
+        </div>
+       
+    
+        <div class="footer-copyright">
+            <small> © Copyright 2024 Tienda de infusiones - Todos los derechos reservados.<br>Todos los logos, productos, marcas y nombres aqui utilizados son propiedad registrada.<br></small>
+        </div>
+    
+      
+    </footer>
+
 </body>
 </html>
